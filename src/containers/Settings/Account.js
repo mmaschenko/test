@@ -47,7 +47,7 @@ export default class AccountSettings extends Component {
   render() {
     return (
       <View style={style.container}>
-        <Header title="Account" blue={true} leftItem={this.goBack()}/>
+        <Header title="Account" blue={true} leftItem={this.goBack()} />
         <View style={style.main_block}>
           <View>
             <Image

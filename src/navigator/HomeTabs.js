@@ -4,7 +4,7 @@ import { TabNavigator } from 'react-navigation';
 
 import Learn from '../containers/Main/Main';
 import Settings from './SettingsTabs';
-import Assigment from '../containers/Main/Assigment';
+import Stream from '../containers/Main/Stream';
 import Search from '../containers/Main/Search';
 // import Profile from '../containers/Main/Profile';
 import Footer from '../components/Footer';
@@ -17,8 +17,8 @@ const AuthTabs = TabNavigator({
   Search: {
     screen: Search,
   },
-  Assigment: {
-    screen: Assigment,
+  Stream: {
+    screen: Stream,
   },
   Settings: {
     screen: Settings,
@@ -40,7 +40,7 @@ const AuthTabs = TabNavigator({
           // route: 'Signup'
         },
         {
-          label: 'Assigment',
+          label: 'Stream',
           // route: 'Signup'
         },
         {
